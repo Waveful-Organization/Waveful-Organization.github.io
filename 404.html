@@ -2,10 +2,22 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="0; url=https://waveful.app">
         <script type="text/javascript">
-                window.location.href = "https://waveful.app"
-            </script>
+            var link = "";
+            if(link.includes("categories/")) {
+                link = "https://waveful.app/#/categories/";
+            }
+            if(link.includes("accounts/")) {
+                link = "https://waveful.app/#/accounts/";
+            }
+            if(link.includes("posts/")) {
+                link = "https://waveful.app/#/posts/";
+            }
+            if(link === "") {
+                link = "https://waveful.app/#/undefined/";
+            }
+            window.location.href = link;
+        </script>
         <title>Page not found</title>
     </head>
 </html>
