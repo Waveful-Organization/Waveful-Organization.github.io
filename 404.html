@@ -3,20 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <script type="text/javascript">
-            var link = "";
+            var _link = "";
             if(link.includes("categories/")) {
-                link = "https://waveful.app/#/categories/";
+                _link = "https://waveful.app/#/categories/";
             }
             if(link.includes("accounts/")) {
-                link = "https://waveful.app/#/accounts/";
+                _link = "https://waveful.app/#/accounts/";
             }
             if(link.includes("posts/")) {
-                link = "https://waveful.app/#/posts/";
+                _link = "https://waveful.app/#/posts/";
             }
-            if(link === "") {
-                link = "https://waveful.app/#/undefined/";
+            if(_link === "") {
+                _link = "https://waveful.app/#/undefined/";
             }
-            window.location.href = link;
+            window.location.href = _link;
         </script>
         <title>Page not found</title>
     </head>

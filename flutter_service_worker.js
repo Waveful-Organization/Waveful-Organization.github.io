@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "404.html": "e69203be431d95e6e243c53e5de0c7c5",
+  "404.html": "efaba13e1a68dee2e657f701b07a8bf4",
 "assets/AssetManifest.json": "f8f5a8842338924923707a397ac7c10b",
 "assets/assets/badges/apple/badge_apple_en.png": "dbb1c519ceb631ea06079dc005c67b44",
 "assets/assets/badges/apple/badge_apple_it.png": "69cc26dee52116d12f7f410bb7f358bb",
