@@ -36405,7 +36405,7 @@ s=F.bm(a,!1).a
 h=F.bm(a,!1).a
 h=U.Qa(F.bm(a,!1).a.b/8,new L.eF("assets/icon.png"),h.b/8)
 i=F.bm(a,!1).a
-i=T.QH(H.b([h,new T.cn(20,l,l,l),L.QL("Social-App",A.iW(l,l,m.d?$.RI():C.l,l,l,l,l,l,"Coolvetica",l,l,l,l,l,l,l,!0,l,l,l,l,l,l),l,i.b/125)],r),C.kR)
+i=T.QH(H.b([h,new T.cn(20,l,l,l),L.QL("Waveful",A.iW(l,l,m.d?$.RI():C.l,l,l,l,l,l,"Coolvetica",l,l,l,l,l,l,l,!0,l,l,l,l,l,l),l,i.b/125)],r),C.kR)
 h=m.a.c
 q=m.d
 p=t.bz
@@ -36460,7 +36460,7 @@ aY:function(){U.VL(new L.eF("assets/mockups/phone_light.png"),this.c)
 U.VL(new L.eF("assets/mockups/phone_dark.png"),this.c)
 this.bk()},
 R:function(a){var s=X.TQ(null,C.kT,X.ZQ())
-return new S.nB(new X.k1(this.a.c,null),new F.Mz(),"Social-App Website",s,C.ub,C.nf,null)}}
+return new S.nB(new X.k1(this.a.c,null),new F.Mz(),"Waveful",s,C.ub,C.nf,null)}}
 F.Mz.prototype={
 $1:function(a){return V.T3(new F.My(),null,t.z)}}
 F.My.prototype={
