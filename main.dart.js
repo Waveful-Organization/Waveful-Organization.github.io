@@ -11943,7 +11943,7 @@ this.b=a
 this.c=null},
 OW:function OW(){},
 OV:function OV(){},
-CS:function(){var s=0,r=P.al(t.H),q,p,o,n,m,l,k,j
+CS:function(){var s=0,r=P.al(t.H),q,p,o,n,m,l,k,j,i
 var $async$CS=P.ad(function(a,b){if(a===1)return P.ai(b,r)
 while(true)switch(s){case 0:s=2
 return P.az(P.a53(),$async$CS)
@@ -11953,18 +11953,18 @@ if(C.c.B(q,"accounts/"))p=C.pC
 if(C.c.B(q,"posts/"))p=C.pD
 if(C.c.B(q,"undefined/"))p=C.md
 if(C.c.B(q,"privacy"))p=C.pF
-C.c.B(window.navigator.userAgent.toLowerCase(),"mobi")
-if($.bh==null){o=H.b([],t.Ba)
-n=$.K
-m=H.b([],t.kA)
-l=new Array(7)
-l.fixed$length=Array
-l=H.b(l,t.bn)
-k=t.e
-j=t.l7
-new N.yu(null,o,!0,new P.aA(new P.M(n,t.D),t.h),!1,null,!1,null,null,null,0,!1,null,null,new N.BU(P.bG(t.B)),m,null,N.a43(),new Y.uQ(N.a42(),l,t.e4),!1,0,P.z(k,t.dn),P.b4(k),H.b([],j),H.b([],j),null,!1,C.bA,!0,!1,null,C.L,C.L,null,0,null,!1,null,P.HJ(null,t.kt),new O.J3(P.z(k,t.ml),P.z(t.kF,t.h3)),new D.G8(P.z(k,t.Di)),new G.J6(),P.z(k,t.D5)).D1()}o=$.bh
-o.Ah(new F.ow(p,!0,null))
-o.rU()
+o=C.c.B(window.navigator.userAgent.toLowerCase(),"mobi")
+if($.bh==null){n=H.b([],t.Ba)
+m=$.K
+l=H.b([],t.kA)
+k=new Array(7)
+k.fixed$length=Array
+k=H.b(k,t.bn)
+j=t.e
+i=t.l7
+new N.yu(null,n,!0,new P.aA(new P.M(m,t.D),t.h),!1,null,!1,null,null,null,0,!1,null,null,new N.BU(P.bG(t.B)),l,null,N.a43(),new Y.uQ(N.a42(),k,t.e4),!1,0,P.z(j,t.dn),P.b4(j),H.b([],i),H.b([],i),null,!1,C.bA,!0,!1,null,C.L,C.L,null,0,null,!1,null,P.HJ(null,t.kt),new O.J3(P.z(j,t.ml),P.z(t.kF,t.h3)),new D.G8(P.z(j,t.Di)),new G.J6(),P.z(j,t.D5)).D1()}n=$.bh
+n.Ah(new F.ow(p,o,null))
+n.rU()
 return P.aj(null,r)}})
 return P.ak($async$CS,r)}},O={bS:function bS(a,b){this.a=a
 this.$ti=b},LR:function LR(a){this.a=a},
@@ -39593,8 +39593,8 @@ aY:function(){var s=null
 U.Yo(new L.el("assets/mockups/phone_light.png",s,s),this.c)
 U.Yo(new L.el("assets/mockups/phone_dark.png",s,s),this.c)
 this.bm()},
-S:function(a){var s=null,r=X.Wn(s,C.l3,X.a1C()),q=this.a.c
-q=q!==C.pF?new X.ky(q,!0,s):new O.oY(s)
+S:function(a){var s=null,r=X.Wn(s,C.l3,X.a1C()),q=this.a,p=q.c
+q=p!==C.pF?new X.ky(p,q.d,s):new O.oY(s)
 return new S.oi(q,new F.OW(),"Waveful",r,C.uD,C.nv,s)}}
 F.OW.prototype={
 $1:function(a){return V.VB(new F.OV(),null,t.z)}}
