@@ -1,0 +1,9 @@
+"hosting": {
+  "appAssociation": "AUTO",
+  "rewrites": [
+    {
+      "source": "/links/**",
+      "dynamicLinks": true
+    }
+  ]
+}
