@@ -1,11 +1,20 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "Y9KA7F9L32.app.waveful",
-                "paths": [ "*" ]
-            }
-        ]
-    }
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "Y9KA7F9L32.app.waveful" ],
+             "components": [
+               {
+                  "/": "/accounts/*"
+               },
+               {
+                  "/": "/categories/*"
+               },
+               {
+                  "/": "/posts/*"
+               }
+             ]
+           }
+       ]
+   }
 }
