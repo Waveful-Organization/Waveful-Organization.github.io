@@ -4,15 +4,17 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "404.html": "5f44cdecda36350ff56bdd32b17311da",
-"assets/AssetManifest.json": "a91e97262d2a85711f5a6312a935a651",
+"assets/AssetManifest.json": "c529a9c0738d4ec91742ca42e0d90177",
 "assets/assets/badges/apple/badge_apple_en.png": "dbb1c519ceb631ea06079dc005c67b44",
+"assets/assets/badges/apple/badge_apple_es.png": "91268cae5cac31852d194aa57cfef01a",
 "assets/assets/badges/apple/badge_apple_it.png": "69cc26dee52116d12f7f410bb7f358bb",
 "assets/assets/badges/google/badge_google_en.png": "db9b21a1c41f3dcd9731e1e7acfdbb57",
+"assets/assets/badges/google/badge_google_es.png": "4263a06f4d3d0e7ab066e7145c58c992",
 "assets/assets/badges/google/badge_google_it.png": "c701b48ca94ef5c3bbdb11c272c27afc",
 "assets/assets/fonts/coolvetica.ttf": "5d474fd2ebc6ef77c9bf3219391bed9c",
 "assets/assets/icon.png": "b60bc846c8353d869dd35d48e276f0f0",
-"assets/assets/mockups/phone_dark.png": "f4a85c92e3d04ec17976544dacc28ff3",
-"assets/assets/mockups/phone_light.png": "44d25383e078b8252141ef6aaa1671c6",
+"assets/assets/mockups/phone_dark.png": "2bdaebb90234f2f8f42d6a4ebc09057a",
+"assets/assets/mockups/phone_light.png": "0adb5866bb8dd8b2ba66f042f3a80e12",
 "assets/assets/small_icon.png": "516aaa6a4154c236dc3244e753513255",
 "assets/FontManifest.json": "81ffd5c9a7aca0a36d1b582e1880fc14",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
@@ -22,9 +24,9 @@ const RESOURCES = {
 "favicon.ico": "57267dcd85a3ce2f29b9c3c9a03ed4d0",
 "icons/Icon-192.png": "f9943b33208092666af48c9a4b9dc6c9",
 "icons/Icon-512.png": "b60bc846c8353d869dd35d48e276f0f0",
-"index.html": "9e4baab9c7824669f442183c10c4ecc6",
-"/": "9e4baab9c7824669f442183c10c4ecc6",
-"main.dart.js": "02ddb80a2e8b15af48cef72c4749ba2f",
+"index.html": "9fc4d58017d292a084b1e1df54a35fc4",
+"/": "9fc4d58017d292a084b1e1df54a35fc4",
+"main.dart.js": "42e37e6bf71ba8d15f36451b666a358b",
 "manifest.json": "0d9f1eeee3882e27e610dc1bb4dc0d76",
 "version.json": "3fdad7801aca543a531fffd608315f1b"
 };
