@@ -3,30 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <script type="text/javascript">
+            const domain = "waveful.app/";
             var link = window.location.href;
             var _link = "";
-            if(link.includes("categories/")) {
-                _link = "https://waveful.app/#/categories/";
-            }
-            if(link.includes("accounts/")) {
-                _link = "https://waveful.app/#/accounts/";
-            }
-            if(link.includes("posts/")) {
-                _link = "https://waveful.app/#/posts/";
-            }
-            if(link.includes("privacy")) {
+            if(link.includes(domain + "privacy")) {
                 _link = "https://waveful.app/#/privacy";
-            }
-            if(link.includes("termsofuse")) {
+            } else if(link.includes(domain + "termsofuse")) {
                 _link = "https://waveful.app/#/termsofuse";
-            }
-            if(link.includes("creators")) {
+            } else if(link.includes(domain + "creators")) {
                 _link = "https://waveful.app/#/creators";
-            }
-            if(link.includes("download")) {
+            } else if(link.includes(domain + "download")) {
                 _link = "https://onelink.to/waveful";
-            }
-            if(_link === "") {
+            } else if(link.includes(domain + "instagram")) {
+                _link = "https://www.instagram.com/waveful.app/";
+            } else if(link.includes(domain + "twitter")) {
+                _link = "https://twitter.com/WavefulApp";
+            } else if(link.includes(domain + "reddit")) {
+                _link = "https://www.reddit.com/r/WavefulApp/";
+            } else if(link.includes(domain + "facebook")) {
+                _link = "https://www.facebook.com/Waveful-103178851525658";
+            } else if(link.includes(domain + "categories/")) {
+                _link = "https://waveful.app/#/categories/";
+            } else if(link.includes(domain + "accounts/")) {
+                _link = "https://waveful.app/#/accounts/";
+            } else if(link.includes(domain + "posts/")) {
+                _link = "https://waveful.app/#/posts/";
+            } else {
                 _link = "https://waveful.app/#/undefined/";
             }
             window.location.href = _link;
