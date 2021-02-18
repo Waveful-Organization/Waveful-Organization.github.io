@@ -8,32 +8,47 @@
             var _link = "";
             if(link.includes(domain + "privacy")) {
                 _link = "https://waveful.app/#/privacy";
+                window.location.href = _link;
             } else if(link.includes(domain + "termsofuse")) {
                 _link = "https://waveful.app/#/termsofuse";
+                window.location.href = _link;
             } else if(link.includes(domain + "creators")) {
                 _link = "https://waveful.app/#/creators";
+                window.location.href = _link;
             } else if(link.includes(domain + "download")) {
                 _link = "https://onelink.to/waveful";
+                window.location.href = _link;
             } else if(link.includes(domain + "instagram")) {
                 _link = "https://www.instagram.com/waveful.app/";
+                window.location.href = _link;
             } else if(link.includes(domain + "twitter")) {
                 _link = "https://twitter.com/WavefulApp";
+                window.location.href = _link;
             } else if(link.includes(domain + "reddit")) {
                 _link = "https://www.reddit.com/r/WavefulApp/";
+                window.location.href = _link;
             } else if(link.includes(domain + "facebook")) {
                 _link = "https://www.facebook.com/Waveful-103178851525658";
+                window.location.href = _link;
             } else if(link.includes(domain + "categories/")) {
                 _link = "https://waveful.app/#/categories/";
+                window.location.href = _link;
             } else if(link.includes(domain + "accounts/")) {
                 _link = "https://waveful.app/#/accounts/";
+                window.location.href = _link;
             } else if(link.includes(domain + "posts/")) {
                 _link = "https://waveful.app/#/posts/";
+                window.location.href = _link;
             } else if(link.includes(domain + "comments/")) {
+                window.onload = function() {
+                    window.location = link;
+                    setTimeout("window.location.href = 'https://waveful.app/#/comments/';", 500);
+                }
                 _link = "https://waveful.app/#/comments/";
             } else {
                 _link = "https://waveful.app/#/undefined/";
+                window.location.href = _link;
             }
-            window.location.href = _link;
         </script>
         <title>Waveful</title>
     </head>
