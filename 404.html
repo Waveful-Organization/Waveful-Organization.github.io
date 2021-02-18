@@ -41,10 +41,10 @@
                 window.location.href = _link;
             } else if(link.includes(domain + "comments/")) {
                 window.onload = function() {
-                    window.location = "https://links.waveful.app/?link=" + link + "&apn=app.waveful&ibi=app.waveful";
-                    setTimeout("window.location.href = 'https://waveful.app/#/comments/';", 2000);
+                    const defaultLink = "https://waveful.app/#/comments/";
+                    window.location = "https://links.waveful.app/?link=" + link + "&apn=app.waveful&afl=" + defaultLink + "&ibi=app.waveful&ifl=" + defaultLink + "&ipbi=app.waveful&ipfl=" + defaultLink + "&ofl=" + defaultLink;
+                    setTimeout("window.location.href = 'https://waveful.app/#/comments/';", 1000);
                 }
-                _link = "https://waveful.app/#/comments/";
             } else {
                 _link = "https://waveful.app/#/undefined/";
                 window.location.href = _link;
