@@ -1,16 +1,10 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
-        "appIDs": [ "Y9KA7F9L32.app.waveful" ],
-        "components": [
-          { "/": "/accounts/*" },
-          { "/": "/categories/*" },
-          { "/": "/posts/*" },
-          { "/": "/comments/*" },
-          { "/": "/replies/*" },
-          { "/": "/referral/*" }
-        ]
+        "appID": "Y9KA7F9L32.app.waveful",
+        "paths": [ "/accounts/*", "/categories/*", "/posts/*", "/comments/*", "/replies/*", "/referral/*"]
       }
     ]
   }
