@@ -41,7 +41,7 @@
                 window.location.href = _link;
             } else if(link.includes(domain + "comments/")) {
                 window.onload = function() {
-                    window.location = link;
+                    window.location = "https://links.waveful.app/?link=" + link + "&apn=app.waveful&ibi=app.waveful";
                     setTimeout("window.location.href = 'https://waveful.app/#/comments/';", 500);
                 }
                 _link = "https://waveful.app/#/comments/";
