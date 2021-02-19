@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <script type="text/javascript">
             const domain = "waveful.app/";
-            var link = window.location.href;
+            const link = window.location.href;
             var _link = "";
             if(link.includes(domain + "privacy")) {
                 _link = "https://waveful.app/#/privacy";
@@ -40,10 +40,12 @@
                 _link = "https://waveful.app/#/posts/";
                 window.location.href = _link;
             } else if(link.includes(domain + "comments/")) {
-                window.onload = function() {
-                    const defaultLink = "https://waveful.app/#/comments/";
-                    window.location = "https://links.waveful.app/?link=" + link + "&apn=app.waveful&afl=" + defaultLink + "&ibi=app.waveful&ifl=" + defaultLink + "&ipbi=app.waveful&ipfl=" + defaultLink + "&ofl=" + defaultLink;
-                    setTimeout("window.location.href = 'https://waveful.app/#/comments/';", 1000);
+                if(link.includes("#no_redirect")) {
+                    window.location.href = "https://waveful.app/#/comments/";
+                } else {
+                    window.onload = function() {
+                        window.location = link + "#no_redirect";
+                    }
                 }
             } else {
                 _link = "https://waveful.app/#/undefined/";
