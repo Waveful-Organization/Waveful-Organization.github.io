@@ -12,7 +12,7 @@
         {
             "platform": "play",
             "url": "https://play.google.com/store/apps/details?id=app.waveful",
-            "id": "com.example.app1"
+            "id": "app.waveful"
         },
         {
             "platform": "itunes",
