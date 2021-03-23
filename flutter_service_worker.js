@@ -3,7 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "404.html": "259815cc63007028613285ae3cb95aef",
+  ".well-known/apple-app-site-association": "459a27a21e60d4630683bf3dde17a1ec",
+".well-known/assetlinks.json": "a8b59cf2c330af8e461df4f2808d6dc4",
+"404.html": "4cf9976c0f8a361fffd6a1dfdb840a95",
+"app-ads.txt": "b345000f19c14c680aaaf0f9c105a221",
+"apple-app-site-association": "459a27a21e60d4630683bf3dde17a1ec",
 "assets/AssetManifest.json": "e5b6458bd753dcf12af1f7d4717e0ef6",
 "assets/assets/badges/apple/badge_apple_en.png": "dbb1c519ceb631ea06079dc005c67b44",
 "assets/assets/badges/apple/badge_apple_es.png": "91268cae5cac31852d194aa57cfef01a",
@@ -18,15 +22,16 @@ const RESOURCES = {
 "assets/assets/small_icon.png": "516aaa6a4154c236dc3244e753513255",
 "assets/FontManifest.json": "34dc16c54d4b1efc7f81ffae9706c2fc",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "a48927856fe99291e736a2adab2cd111",
-"assets/packages/material_design_icons_flutter/lib/fonts/materialdesignicons-webfont.ttf": "c1242726c7eac4eb5e843d826f78fb1b",
+"assets/NOTICES": "de068ffddae0fce64b9ff877ac9cc589",
+"assets/packages/material_design_icons_flutter/lib/fonts/materialdesignicons-webfont.ttf": "3e722fd57a6db80ee119f0e2c230ccff",
+"CNAME": "124e4042fbf152059b5805ece63fc59c",
 "favicon.ico": "57267dcd85a3ce2f29b9c3c9a03ed4d0",
 "icons/Icon-192.png": "f9943b33208092666af48c9a4b9dc6c9",
 "icons/Icon-512.png": "b60bc846c8353d869dd35d48e276f0f0",
-"index.html": "7d43267c3d91c84ac420b50a62c08bf6",
-"/": "7d43267c3d91c84ac420b50a62c08bf6",
-"main.dart.js": "2f852bda91473b5fd5579573542400ff",
-"manifest.json": "0d9f1eeee3882e27e610dc1bb4dc0d76",
+"index.html": "3e576cfd52c469c7a2a7c086cfc363b1",
+"/": "3e576cfd52c469c7a2a7c086cfc363b1",
+"main.dart.js": "a03a325b1867cc935313ef5cf94a88b0",
+"manifest.json": "322b3160f0c64b5ea3cff38e6327e59f",
 "version.json": "3fdad7801aca543a531fffd608315f1b"
 };
 
@@ -171,7 +176,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
