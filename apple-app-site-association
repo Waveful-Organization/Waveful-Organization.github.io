@@ -7,10 +7,11 @@
         "paths": [
           "/accounts/*",
           "/categories/*",
-          "/posts/*",
           "/comments/*",
+          "/posts/*",
+          "/referral/*",
           "/replies/*",
-          "/referral/*"
+          "/tsunamis/*"
         ]
       }
     ]

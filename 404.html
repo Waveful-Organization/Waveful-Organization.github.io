@@ -21,30 +21,34 @@
                 window.location.href = "https://www.reddit.com/r/WavefulApp/";
             } else if(link.includes(domain + "facebook")) {
                 window.location.href = "https://www.facebook.com/Waveful-103178851525658";
-            } else if(link.includes(domain + "categories/")) {
-                const prefix = domain + "categories/";
-                const n = link.indexOf(prefix);
-                window.location.href =  "https://waveful.app/#/categories/" + link.slice(n + prefix.length);
             } else if(link.includes(domain + "accounts/")) {
                 const prefix = domain + "accounts/";
                 const n = link.indexOf(prefix);
                 window.location.href =  "https://waveful.app/#/accounts/" + link.slice(n + prefix.length);
-            } else if(link.includes(domain + "posts/")) {
-                const prefix = domain + "posts/";
+            } else if(link.includes(domain + "categories/")) {
+                const prefix = domain + "categories/";
                 const n = link.indexOf(prefix);
-                window.location.href =  "https://waveful.app/#/posts/" + link.slice(n + prefix.length);
+                window.location.href =  "https://waveful.app/#/categories/" + link.slice(n + prefix.length);
             } else if(link.includes(domain + "comments/")) {
                 const prefix = domain + "comments/";
                 const n = link.indexOf(prefix);
                 window.location.href =  "https://waveful.app/#/comments/" + link.slice(n + prefix.length);
-            } else if(link.includes(domain + "replies/")) {
-                const prefix = domain + "replies/";
+            } else if(link.includes(domain + "posts/")) {
+                const prefix = domain + "posts/";
                 const n = link.indexOf(prefix);
-                window.location.href =  "https://waveful.app/#/replies/" + link.slice(n + prefix.length);
+                window.location.href =  "https://waveful.app/#/posts/" + link.slice(n + prefix.length);
             } else if(link.includes(domain + "referral/")) {
                 const prefix = domain + "referral/";
                 const n = link.indexOf(prefix);
                 window.location.href =  "https://waveful.app/#/referral/" + link.slice(n + prefix.length);
+            } else if(link.includes(domain + "replies/")) {
+                const prefix = domain + "replies/";
+                const n = link.indexOf(prefix);
+                window.location.href =  "https://waveful.app/#/replies/" + link.slice(n + prefix.length);
+            } else if(link.includes(domain + "tsunamis/")) {
+                const prefix = domain + "tsunamis/";
+                const n = link.indexOf(prefix);
+                window.location.href =  "https://waveful.app/#/tsunamis/" + link.slice(n + prefix.length);
             } else {
                 window.location.href = "https://waveful.app/#/undefined/";
             }
