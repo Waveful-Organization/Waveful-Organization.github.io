@@ -13054,7 +13054,7 @@ else if(C.c.A(a,"waveful.app/#/creators"))return C.h2
 else if(C.c.A(a,"waveful.app/#/privacy"))return C.h3
 else if(C.c.A(a,"waveful.app/#/termsofuse"))return C.h1
 else if(C.c.A(a,"waveful.app/#/undefined"))return C.eG
-else if(a.length>=22)return C.eG
+else if(a.length>22)return C.eG
 else return C.nt},
 ds:function ds(a){this.b=a},
 a9A:function(a,b){var s=H.b(a.split("\n"),t.s)
