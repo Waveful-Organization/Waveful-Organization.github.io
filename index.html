@@ -26,6 +26,22 @@
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
 
+  <!-- Redirect immediately if it's necessary. -->
+  <script type="text/javascript">
+    const currentUrl = window.location.href;
+    if(currentUrl.includes("waveful.app/download")) {
+        window.location.href = "https://onelink.to/waveful";
+    } else if(currentUrl.includes("waveful.app/instagram")) {
+        window.location.href = "https://www.instagram.com/waveful.app/";
+    } else if(currentUrl.includes("waveful.app/twitter")) {
+        window.location.href = "https://twitter.com/WavefulApp";
+    } else if(currentUrl.includes("waveful.app/reddit")) {
+        window.location.href = "https://www.reddit.com/r/WavefulApp/";
+    } else if(currentUrl.includes("waveful.app/facebook")) {
+        window.location.href = "https://www.facebook.com/Waveful-103178851525658";
+    }
+  </script>
+
   <title>Waveful</title>
   <link rel="manifest" href="manifest.json">
 </head>
@@ -41,7 +57,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3588646204');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2278794745');
       });
     }
   </script>
